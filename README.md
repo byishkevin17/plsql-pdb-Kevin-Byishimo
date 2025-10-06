@@ -17,6 +17,7 @@ SHOW PDBS;
 Create your PDB
 ![image alt](https://github.com/byishkevin17/plsql-pdb-Kevin-Byishimo/blob/main/screenshot_1_new_%20pdb.png?raw=true)
 ![image alt](https://github.com/byishkevin17/plsql-pdb-Kevin-Byishimo/blob/main/screenshot_2_cont_new_pdb.png?raw=true)
+
 Open the new PDB
 ALTER PLUGGABLE DATABASE ke_pdb_28056 OPEN;
 Save state
@@ -44,6 +45,7 @@ Login using your username: sys
 
 ![image alt](https://github.com/byishkevin17/plsql-pdb-Kevin-Byishimo/blob/main/screenshot_5_OEM_performance.png?raw=true)
 ![image alt](https://github.com/byishkevin17/plsql-pdb-Kevin-Byishimo/blob/main/screenshot_6_OEM_storage.png?raw=true)
+
 
 
 
