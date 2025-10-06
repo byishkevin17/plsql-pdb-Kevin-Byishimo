@@ -15,8 +15,8 @@ sqlplus / as sysdba
 Check existing PDBs
 SHOW PDBS;
 Create your PDB
-![altext](screenshots/Screenshot%202025-10-06%20144701.png)
-![altext](screenshots/Screenshot%202025-10-06%20144716.png)
+![image alt](https://github.com/byishkevin17/plsql-pdb-Kevin-Byishimo/blob/main/screenshot_1_new_%20pdb.png?raw=true)
+![image alt](https://github.com/byishkevin17/plsql-pdb-Kevin-Byishimo/blob/main/screenshot_2_cont_new_pdb.png?raw=true)
 Open the new PDB
 ALTER PLUGGABLE DATABASE ke_pdb_28056 OPEN;
 Save state
@@ -31,8 +31,8 @@ ALTER PLUGGABLE DATABASE ke_to_delete_pdb_28056 OPEN;
 🔹 Delete it afterward
 ALTER PLUGGABLE DATABASE ke_to_delete_pdb_28056 CLOSE IMMEDIATE;
 DROP PLUGGABLE DATABASE ke_to_delete_pdb_28056 INCLUDING DATAFILES;
-![altext](screenshots/Screenshot%202025-10-06%20153129.png)
-![altext](screenshots/Screenshot%202025-10-06%20153249.png)
+![image alt](https://github.com/byishkevin17/plsql-pdb-Kevin-Byishimo/blob/main/screenshot_3_create&delete_pdb.png?raw=true)
+![image alt](https://github.com/byishkevin17/plsql-pdb-Kevin-Byishimo/blob/main/screenshot_4_cont_create&delete_pdb.png?raw=true)
 
 Before deletion (PDB visible in SHOW PDBS;)
 
@@ -42,8 +42,9 @@ URL format:https://localhost:5500/em
 
 Login using your username: sys
 
-![altext](screenshots/Screenshot%202025-10-06%20144614.png)
-![altext](screenshots/Screenshot%202025-10-06%20144546.png)
+![image alt](https://github.com/byishkevin17/plsql-pdb-Kevin-Byishimo/blob/main/screenshot_5_OEM_performance.png?raw=true)
+![image alt](https://github.com/byishkevin17/plsql-pdb-Kevin-Byishimo/blob/main/screenshot_6_OEM_storage.png?raw=true)
+
 
 
 
